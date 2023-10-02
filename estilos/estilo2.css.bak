@@ -197,7 +197,7 @@ a:hover h4 {
 body {
   color: 		#222;
   text-align: 	center;
-  font-family: 	Garamond, Tahoma, sans-serif;
+  font-family: 	Verdana, Garamond, Tahoma, sans-serif;
   font-size: 	12px;
   font-weight: 	300;
 }
@@ -267,27 +267,19 @@ iframe[iframetag] {
 	width:			600px;
 }
 
-sharebutton.config.hashtags = 'dogs,beecostumes';
-sharebutton.config.link = 'http://beedogs.com';
-sharebutton.config.account = 'codepo8';
-
-	 sharebutton.set(
-    '#twittershare',
-    'Best dogs in bee costumes site on the web'
-  ); 
-  
-.done #twittershare, .share {
-  opacity: 1;
-}
-#twittershare, .share {
-  color: #fff;
-  background: royalblue;
+.twittershare {
+  color: #2471a3;
   text-decoration: none;
   padding: 5px 10px;
-  opacity: 0;
+  opacity: 1;
   transition: 1s;
 }
 
+.twittershare:hover {
+  background: 		lightblue;
+  text-decoration:	underline;
+  color:            blue;
+}
 
 #binary {
   background-image: url("imagen1.jpg");
