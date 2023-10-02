@@ -204,9 +204,8 @@ body {
 
 body p{
 	
-	/*font-family: 	sans-serif;*/
 	font-family: Verdana;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 section {
@@ -316,7 +315,7 @@ sharebutton.config.account = 'codepo8';
 }
 
 #wifiCDMX {
-  background-image: url("wifiCdMx.png");
+  background-image: url("wifiCdMx.PNG");
   background-repeat: no-repeat;	
 }
 

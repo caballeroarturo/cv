@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta name="keywords" content="caballero000,dataviz,data,science" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Arturo Caballero">
 	
+	<meta name="description" content="Portafolio Arturo Caballero">
 	<meta property="og:url" content="https://caballeroarturo.github.io/cv/">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Portafolio Arturo Caballero">
