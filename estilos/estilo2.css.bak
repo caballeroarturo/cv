@@ -2,7 +2,7 @@
   -webkit-text-size-adjust: none;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: #EDE5CF;
+  /*background-color: white;*/
 }
 html {
   min-height: 100%;
@@ -11,7 +11,7 @@ html {
 
 footer {
   clear: both;
-  background-color: #008080;
+  /*background-color: #008080;*/
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -56,7 +56,6 @@ body {
 	font-size: 			18px;
 	line-height: 		24px;
 	border-radius:		4px;
-	fill:       red;
 }
 
 /* Change the background color on mouse-over */
@@ -66,16 +65,17 @@ body {
 }
 
 /* Style the active/current link*/
-.header a.active {
-	  background-color: lightblue;
-	  color: 	#2471a3;
+.header a.active, .header a.active svg {
+	  background-color: #5f9ca3;
+	  color: 	 #802000;
+	  fill:      #802000;
 }
 
 /* Style the active/current link*/
 .header a.active:hover {
 	  background-color: #2471a3;
-	  color: 	white;
-	  fill: 	white;
+	  color: 	navy;
+	  fill: 	navy;
 }
 
 /* Float the link section to the right */
@@ -90,6 +90,10 @@ body {
 /* Float the link section to the right */
 .header-right {
 	float: 		right;
+}
+
+div a svg {
+	fill: white;
 }
 
 .header-right svg:hover {
@@ -211,6 +215,7 @@ ol li h4 {
 	text-decoration: 	none;
 }
 
+
 a:hover span,
 a:hover h3,
 a:hover p,
@@ -330,7 +335,7 @@ iframe[iframetag] {
   background-repeat: no-repeat;
 }
 
-#pendiente {
+#muestrapan {
   background-image: url("imagen1.jpg");
   background-repeat: no-repeat;
 }
