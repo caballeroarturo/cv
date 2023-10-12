@@ -244,6 +244,7 @@ body p{
 section {
 	position:		relative;
 	width:			100%;
+	
 	margin:			55px auto;
 	padding-right:	162px;
 }
@@ -329,6 +330,10 @@ iframe[iframetag] {
   color:            blue;
 }
 
+#articulo1 {
+  margin: 15;
+  padding: 25px 25px;
+}
 
 #uam12 {
   background-image: url("UAM_12.PNG");
@@ -361,7 +366,7 @@ iframe[iframetag] {
 }
 
 #ENIGH {
-  background-image: url("enigh1.png");
+  background-image: url("enigh1.PNG");
   background-repeat: no-repeat;
 }
 
