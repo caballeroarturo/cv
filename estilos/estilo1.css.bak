@@ -24,10 +24,11 @@ body {
   font-size: 	12px;
   font-weight: 	300;
   margin: 0;
+  background-image: linear-gradient( #f9ebea  , #D1EEEA);
 }
 
 .header {
-	background-color:  #008080;       /*Cambia el color de fondo */
+	background-color:  #EB4A40;       /*Cambia el color de fondo */
 	/*text-transform: uppercase;	Cambia la letra de minuscula a MAYUSCULA */
 	text-align: center;		    /* Se usa para centrar el texto */ 
 	/* height: 70px;		         Establece la altura */
@@ -49,11 +50,11 @@ body {
 /* Style the header links */
 .header a {
 	color: 			white;
-	background-color:  #008080;
+	/*background-color:  #008080;*/
 	text-align: 		center;
 	padding: 			12px;
 	text-decoration: 	none;
-	font-size: 			18px;
+	font-size: 			20px;
 	line-height: 		24px;
 	border-radius:		4px;
 }
@@ -61,21 +62,21 @@ body {
 /* Change the background color on mouse-over */
 .header a:hover {
 	background-color: #ddd;
-	color: 		black;
+	color: 		#08519C;
 }
 
 /* Style the active/current link*/
 .header a.active, .header a.active svg {
 	  background-color: #d1e4e6;
-	  color: 	 #802000;
-	  fill:      #802000;
+	  color: 	 #08519C;
+	  fill:      #08519C;
 }
 
 /* Style the active/current link*/
 .header a.active:hover {
-	  background-color: #2471a3;
-	  color: 	navy;
-	  fill: 	navy;
+	  background-color: #800026;
+	  color: 	white;
+	  fill: 	white;
 }
 
 /* Float the link section to the right */
@@ -156,10 +157,16 @@ div a svg {
 	
 }
 
+#circulos{
+	
+	text-align: center;		    /* Se usa para centrar el texto */ 
+	/* height: 70px;		         Establece la altura */
+	padding: 15px 10px;		    /*Establace un espacio superior de 15 pixeles */
+}
 
 ol {
-  margin: 0;
-  padding: 0;
+  margin: 15;
+  padding: 25px 25px;
   text-align: center;
 }
 
@@ -236,7 +243,7 @@ body p{
 
 section {
 	position:		relative;
-	width:			284px;
+	width:			100%;
 	height:			97px;
 	margin:			55px auto;
 	padding-right:	162px;
@@ -256,14 +263,6 @@ h1 {
 	border-left:	1px solid #000;
 }
 
-footer {
-  clear: both;
-  /*background-color: #008080;*/
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 footer p {
   text-transform: 	uppercase;
   display: 			block;
@@ -280,14 +279,24 @@ footer a svg {
 }
 
 footer a svg:hover {
-	fill: 				#d1351b;
+	fill: 				#F7FEAE;
 	color: 				white;
-	height:				"2.1em";
+	height:				2.1em;
 }
 
 #footer1 {
-  background-color: #002947;
+  background-color: #2A5674;
   font-weight: 150;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  clear: both;
+  text-align: center;		    /* Se usa para centrar el texto */ 
+  /* height: 70px;		         Establece la altura */
+   padding: 7px 10px;		    /*Establace un espacio superior de 15 pixeles */
+   /* font-size: 50px;		       Establecer tamaño de la letra */
+  overflow: hidden;
 }
 
 
@@ -319,6 +328,11 @@ iframe[iframetag] {
   background: 		lightblue;
   text-decoration:	underline;
   color:            blue;
+}
+
+#articulo1 {
+  margin: 15;
+  padding: 25px 25px;
 }
 
 #uam12 {

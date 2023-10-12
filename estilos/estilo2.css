@@ -1,3 +1,11 @@
+/* Get a fancy font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins','Yusei Magic', sans-serif;
+}
+
 * {
   -webkit-text-size-adjust: none;
   -webkit-box-sizing: border-box;
@@ -9,18 +17,10 @@ html {
   position: relative;
 }
 
-footer {
-  clear: both;
-  /*background-color: #008080;*/
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 body {
   color: 		#800040;
   text-align: 	center;
-  font-family: 	Verdana, Garamond, Tahoma, sans-serif;
+  font-family: 	'Poppins', Verdana, Garamond, Tahoma, sans-serif;
   font-size: 	12px;
   font-weight: 	300;
   margin: 0;
@@ -211,7 +211,7 @@ ol li h3, ol li p, ol li h4 {
 ol li h4 {
 	font-weight:		350;
 	color:				#a8dbd9;
-	font-family: 		Garamond;
+	font-family: 		'Poppins'; 
 	text-decoration: 	none;
 }
 
@@ -224,11 +224,13 @@ a:hover h4 {
 	opacity:	1;
 	} 
 
-
+a:hover h4 {
+	text-decoration: 	none;
+	}
 
 body p{
 	
-	font-family: Verdana;
+	font-family: 'Yusei Magic';
 	font-size: 18px;
 }
 
@@ -254,6 +256,14 @@ h1 {
 	border-left:	1px solid #000;
 }
 
+footer {
+  clear: both;
+  /*background-color: #008080;*/
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 footer p {
   text-transform: 	uppercase;
   display: 			block;
@@ -264,11 +274,22 @@ footer p {
   margin: 			80px 0 55px;
 }
 
-footer a svg:hover {
-	fill: 				blue;
+footer a svg {
+	fill: 				white;
 	color: 				blue;
-	background-color: #802000;
 }
+
+footer a svg:hover {
+	fill: 				#d1351b;
+	color: 				white;
+	height:				2.1em;
+}
+
+#footer1 {
+  background-color: #002947;
+  font-weight: 150;
+}
+
 
 iframe[iframetag] {
          border: none;
@@ -336,6 +357,6 @@ iframe[iframetag] {
 }
 
 #muestrapan {
-  background-image: url("imagen1.jpg");
+  background-image: url("MuestraPan.PNG");
   background-repeat: no-repeat;
 }
